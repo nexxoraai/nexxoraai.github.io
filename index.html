@@ -12,31 +12,32 @@ html{scroll-behavior:smooth}
 body{margin:0;background:#070b14;color:#eaf1ff;font-family:Arial,sans-serif;line-height:1.7}
 nav{display:flex;align-items:center;justify-content:space-between;padding:20px 6%;border-bottom:1px solid #203047;flex-wrap:wrap;gap:15px}
 .brand{font-size:24px;font-weight:900;letter-spacing:3px;color:#fff}
-.brand span{color:#ff7043}
+.brand span{color:#42d9ff}
 nav a{color:#aabbd0;text-decoration:none;margin-right:15px;font-size:14px}
-button,.btn{display:inline-block;background:#ff7043;color:#080b12;border:0;border-radius:8px;padding:12px 22px;font-weight:bold;text-decoration:none;cursor:pointer}
-.hero{text-align:center;padding:100px 20px;background:radial-gradient(ellipse at top,#172b46,transparent 70%)}
+button,.btn{display:inline-block;background:#42d9ff;color:#080b12;border:0;border-radius:8px;padding:12px 22px;font-weight:bold;text-decoration:none;cursor:pointer}
+.hero{text-align:center;padding:100px 20px;background:radial-gradient(ellipse at top,#211449,transparent 70%)}
 .logo{width:95px;height:95px;object-fit:contain}
 h1{font-size:clamp(42px,8vw,90px);letter-spacing:5px;line-height:1.1;margin:25px 0}
 h2{font-size:32px;margin-bottom:25px}
-.accent{color:#ff7043}
+.accent{color:#42d9ff}
 p{color:#aabbd0}
 .hero p{max-width:720px;margin:20px auto 30px;font-size:19px}
 section{max-width:1150px;margin:auto;padding:55px 24px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
 .card{background:#101827;border:1px solid #24344b;border-radius:16px;padding:25px}
-.number{font-size:34px;font-weight:bold;color:#ff7043}
+.number{font-size:34px;font-weight:bold;color:#42d9ff}
 .small{font-size:13px;color:#94a6bf}
 .tokenomics{display:flex;align-items:center;justify-content:center;gap:45px;flex-wrap:wrap}
-.donut{width:250px;height:250px;border-radius:50%;background:conic-gradient(#ff7043 0% 40%,#3988ff 40% 60%,#13c9a1 60% 75%,#a78bfa 75% 85%,#eab308 85% 95%,#ec4899 95%);display:grid;place-items:center}
+.donut{width:250px;height:250px;border-radius:50%;background:conic-gradient(#42d9ff 0% 40%,#3988ff 40% 60%,#13c9a1 60% 75%,#a78bfa 75% 85%,#eab308 85% 95%,#ec4899 95%);display:grid;place-items:center}
 .donut div{background:#070b14;width:170px;height:170px;border-radius:50%;display:grid;place-content:center;text-align:center;font-size:30px;font-weight:bold}
 .legend{min-width:270px}
 .item{display:flex;justify-content:space-between;gap:20px;padding:10px;border-bottom:1px solid #203047}
 .dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:10px}
 .address{overflow-wrap:anywhere;background:#101827;padding:20px;border-radius:10px;font-family:monospace}
 .links{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
-.links a{color:#ff916f;border:1px solid #344359;padding:10px 20px;border-radius:8px;text-decoration:none}
+.links a{color:#91dfff;border:1px solid #344359;padding:10px 20px;border-radius:8px;text-decoration:none}
 footer{text-align:center;border-top:1px solid #203047;padding:35px 20px;color:#8494ab;font-size:13px}
+.hero{padding:36px 20px 60px;background:radial-gradient(ellipse at top,#211449,transparent 75%)} .hero-banner{display:block;width:min(1200px,100%);height:auto;margin:0 auto 32px;border-radius:18px;border:1px solid #394b82;box-shadow:0 0 40px #6337c43b} .hero h1{font-size:clamp(34px,6vw,65px)} .card{background:linear-gradient(145deg,#121d32,#141025);border-color:#34416b} .card:hover{border-color:#42d9ff} .btn,button{background:linear-gradient(110deg,#42d9ff,#a78bfa)} .agents{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:12px;margin-top:24px}.agent{padding:18px 10px;text-align:center;border:1px solid #394b82;border-radius:12px;background:#11182c}.agent b{display:block;color:#42d9ff;font-size:23px}.agent span{font-size:13px;color:#c0cce0}@media(max-width:600px){nav{padding:16px}nav a{display:inline-block;margin-bottom:8px}.hero{padding:20px 12px 35px}.hero-banner{border-radius:8px}section{padding:32px 16px}.grid{grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}.card{padding:16px}.number{font-size:27px}.legend{min-width:0;width:100%}}
 </style>
 </head>
 <body>
@@ -52,7 +53,7 @@ footer{text-align:center;border-top:1px solid #203047;padding:35px 20px;color:#8
 </nav>
 
 <header class="hero">
-<img class="logo" alt="NEXXORA AI" src="https://ipfs.io/ipfs/bafybeica3pz245jywqvhyygorqrrac43ura3vmkdnhjulnzx6y6dh5adxa" onerror="this.style.display='none'">
+<img class="hero-banner" src="banner.png.jpeg" alt="NEXXORA AI — OTC market analysis">
 <div class="small">SOLANA BLOCKCHAIN · NEXX ECOSYSTEM</div>
 <h1>NE<span class="accent">XX</span>ORA AI</h1>
 <p data-ru="Интеллектуальный анализ рынка. Прозрачность блокчейна. Долгосрочное развитие.">Intelligent market research. Blockchain transparency. Long-term development.</p>
@@ -79,13 +80,14 @@ footer{text-align:center;border-top:1px solid #203047;padding:35px 20px;color:#8
 </div>
 </section>
 
+<section><h2 data-ru="10 исследовательских агентов">10 Research Agents</h2><p data-ru="Предлагаемая архитектура системы в разработке.">Proposed research architecture under development.</p><div class="agents"><div class="agent"><b>01</b><span data-ru="Ценовые уровни">Price levels</span></div><div class="agent"><b>02</b><span data-ru="Математические шаги">Mathematical steps</span></div><div class="agent"><b>03</b><span data-ru="Повторяющиеся модели">Recurring patterns</span></div><div class="agent"><b>04</b><span data-ru="Структуры свечей">Candle structures</span></div><div class="agent"><b>05</b><span data-ru="Историческое сравнение">Historical comparison</span></div><div class="agent"><b>06</b><span data-ru="Качество данных">Data quality</span></div><div class="agent"><b>07</b><span data-ru="Ценовые последовательности">Price sequences</span></div><div class="agent"><b>08</b><span data-ru="Контекст рынка">Market context</span></div><div class="agent"><b>09</b><span data-ru="Проверка прогнозов">Forecast testing</span></div><div class="agent"><b>10</b><span data-ru="Обобщение исследований">Research synthesis</span></div></div></section>
 <section id="tokenomics">
 <h2>NEXX Tokenomics</h2>
 <p>Planned allocation of 100,000,000 NEXX.</p>
 <div class="tokenomics">
 <div class="donut"><div>100M<span class="small">NEXX</span></div></div>
 <div class="legend">
-<div class="item"><span><i class="dot" style="background:#ff7043"></i>Long-term reserve</span><b>40%</b></div>
+<div class="item"><span><i class="dot" style="background:#42d9ff"></i>Long-term reserve</span><b>40%</b></div>
 <div class="item"><span><i class="dot" style="background:#3988ff"></i>Project treasury</span><b>20%</b></div>
 <div class="item"><span><i class="dot" style="background:#13c9a1"></i>AI development</span><b>15%</b></div>
 <div class="item"><span><i class="dot" style="background:#a78bfa"></i>Founders fund</span><b>10%</b></div>
